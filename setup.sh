@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # List of dotfiles to symlink
-DOTFILES=".zshrc"
+DOTFILES=".zshrc .vimrc"
 
 # Create symlinks for each dotfile
 echo "Creating symlinks for each dotfile..."
