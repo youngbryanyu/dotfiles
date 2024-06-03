@@ -4,6 +4,7 @@
 DOTFILES=".zshrc"
 
 # Create symlinks for each dotfile
+echo "Creating symlinks for each dotfile..."
 for file in $DOTFILES; do
     if [ -f ~/$file ] || [ -L ~/$file ]; then
         echo "Removing existing $file"
