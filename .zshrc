@@ -30,6 +30,9 @@ export PATH="$PATH":"$HOME/.pub-cache/bin"
 export JAVA_HOME=$(/usr/libexec/java_home -v 21.0.2)
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 
+## aliases for purdue
+alias data="ssh ybyu@data.cs.purdue.edu"
+
 ## aliases for keybyte
 alias asgard="ssh young@asgard-pub.ecn.purdue.edu"
 alias niflheim="ssh young@niflheim-pub.ecn.purdue.edu"
