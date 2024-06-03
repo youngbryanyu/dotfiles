@@ -8,7 +8,7 @@ git clone https://github.com/youngbryanyu/dotfiles.git
 chmod +x setup.sh
 ./setup.sh
 ```
-This will clone the dot files and create symlinks from the home dir to the dot files in the cloned repo dir.
+This will clone the dot files, create symlinks from the home dir to the dot files in the cloned repo dir, and source the dotfiles.
 
 ## Applying changes
-Don't forget to run `source .zshrc` from the repository root after updating the .zshrc to apply the changes.
+Don't forget to run the setup script `./setup.sh` after updating the .zshrc to apply any new changes.
