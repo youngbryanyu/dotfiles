@@ -14,7 +14,7 @@ for file in $DOTFILES; do
 done
 
 # Source the .zshrc file to apply new changes
-if [ -f ~/.zshrc ]; then
+if [ -f .zshrc ]; then
     echo "Sourcing .zshrc to apply changes"
     source .zshrc
 else
