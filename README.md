@@ -9,3 +9,6 @@ chmod +x setup.sh
 ./setup.sh
 ```
 This will clone the dot files and create symlinks from the home dir to the dot files in the cloned repo dir.
+
+## Applying changes
+Don't forget to run `source .zshrc` from the repository root after updating the .zshrc to apply the changes.
