@@ -11,7 +11,7 @@ for file in $DOTFILES; do
         rm -f ~/$file
     fi
     echo "Creating symlink for $file..."
-    ln -s "$(pwd)/.zshrc" ~/.zshrc
+    ln -s "$(pwd)/$file" ~/$file
 done
 
 # Source the .zshrc file to apply new changes
