@@ -5,6 +5,7 @@ My dot files. I am currently running on a 2022 M2 MacBook Pro (ARM).
 Simply run the following: 
 ```
 git clone https://github.com/youngbryanyu/dotfiles.git
+cd dotfiles
 chmod +x setup.sh
 ./setup.sh
 ```
