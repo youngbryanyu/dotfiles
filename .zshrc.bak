@@ -32,7 +32,6 @@ export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 
 ## aliases for purdue
 alias data="ssh ybyu@data.cs.purdue.edu"
-alias antor="ssh ybyu@antor.cs.purdue.edu"
 
 ## aliases for keybyte
 alias asgard="ssh young@asgard-pub.ecn.purdue.edu"
@@ -54,7 +53,7 @@ alias oc-decrypt-all='/Users/ybyu/Documents/keybyte/optimus/development/decrypt-
 
 alias oc-help='/Users/ybyu/Documents/keybyte/optimus/development/help.sh'
 alias oc-set-env='/Users/ybyu/Documents/keybyte/optimus/development/set-env.sh'
-alias oc-update-access='/Users/ybyu/Documents/keybyte/optimus/development/update-access.sh'
+alias oc-dev='/Users/ybyu/Documents/keybyte/optimus/development/dev.sh'
 
 alias oc-run='/Users/ybyu/Documents/keybyte/optimus/development/run.sh'
 alias oc-stop='/Users/ybyu/Documents/keybyte/optimus/development/stop.sh'
