@@ -14,7 +14,6 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-
 # pnpm
 export PNPM_HOME="/Users/ybyu/Library/pnpm"
 case ":$PATH:" in
@@ -41,8 +40,6 @@ alias midgard="ssh young@midgard-pub.ecn.purdue.edu"
 alias rhea01="ssh young@rhea01.ecn.purdue.edu"
 alias rhea02="ssh young@rhea02.ecn.purdue.edu"
 alias rhea03="ssh young@rhea03.ecn.purdue.edu"
-
-alias oc-decrypt='/Users/ybyu/Documents/keybyte/optimus/development/decrypt.sh'
 
 # Optimus Commands
 alias oc-run-all='/Users/ybyu/Documents/keybyte/optimus/development/run-all.sh'
